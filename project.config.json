@@ -1,0 +1,9 @@
+{
+    "description": "项目配置文件。",
+    "compileType": "miniprogram",
+    "appid": "0185b3a4af4f44f1908f11fd2dcd4616",
+    "projectname": "",
+    "setting":{
+        "es5":true
+    }
+}

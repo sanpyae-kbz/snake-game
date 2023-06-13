@@ -1,0 +1,8 @@
+{
+	"buildType": 1,
+	"buildCmd": "npm run build",
+	"buildDist": "d:\\Projects\\AppCube\\appcube-demo\\dist\\",
+	"entryPagePath": "index.html",
+	"appID": "0185b3a4af4f44f1908f11fd2dcd4616",
+	"isCompile": false
+}
