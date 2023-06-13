@@ -1,6 +1,6 @@
 import { Box, Button, Center, Flex } from "@mantine/core";
 import { useEffect, useRef, useState } from "react";
-import dotImg from "./assets/applePixels.png";
+import dotImg from "./assets/apple.png";
 import { GameOver } from "./components/GameOver";
 import useInterval from "./hooks/useInterval";
 
@@ -32,7 +32,6 @@ function SnakeGame() {
       const canvas = canvasRef.current;
       const ctx = canvas.getContext("2d");
       if (ctx) {
-        console.log("ctx", ctx);
         ctx.setTransform(scale, 0, 0, scale, 0, 0);
         ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
         ctx.fillStyle = "green";
